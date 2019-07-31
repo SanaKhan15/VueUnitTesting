@@ -1,23 +1,21 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    <user-detail></user-detail>
   </div>
 </template>
 
 <script>
+import User from './components/UserDetail';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    userDetail: User
+  },
+  data () {
+    return {
+      //
+    }
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

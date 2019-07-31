@@ -15,3 +15,4 @@ describe('counter.vue', () => {
     expect(wrapper.text()).toContain('counter: 1 Increment')
   })
 })
+

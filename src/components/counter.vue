@@ -7,12 +7,12 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       counter: 0
-    };
+    }
   }
-};
+}
 </script>
 
 <style>
